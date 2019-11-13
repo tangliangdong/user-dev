@@ -20,5 +20,11 @@ public class OpenController {
         return "hello world";
     }
 
+    @PostMapping("login")
+    public String login(){
+        System.out.println("login api");
+        return "login";
+    }
+
 
 }
