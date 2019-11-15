@@ -26,5 +26,11 @@ public class OpenController {
         return "login";
     }
 
+    @PostMapping("index")
+    public String index(){
+        System.out.println("index api");
+        return "index";
+    }
+
 
 }
