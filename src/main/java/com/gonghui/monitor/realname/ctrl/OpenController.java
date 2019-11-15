@@ -29,7 +29,7 @@ public class OpenController {
     @PostMapping("index")
     public String index(){
         System.out.println("index api");
-        return "index.html";
+        return "index";
     }
 
 
