@@ -3,9 +3,9 @@
     <include resource="org/springframework/boot/logging/logback/base.xml" />
 
     <appender name="INFO_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <File>/mnt/logs/gongfupay-faceway-web/info/info.log</File>
+        <File>/home/logs/user-dev/info/info.log</File>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>/mnt/logs/gongfupay-faceway-web/info/info-%d{yyyyMMdd}.log.%i</fileNamePattern>
+            <fileNamePattern>/home/logs/user-dev/info/info-%d{yyyyMMdd}.log.%i</fileNamePattern>
             <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
                 <maxFileSize>500MB</maxFileSize>
             </timeBasedFileNamingAndTriggeringPolicy>
@@ -21,9 +21,9 @@
         <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
             <level>ERROR</level>
         </filter>
-        <File>/mnt/logs/gongfupay-faceway-web/error/error.log</File>
+        <File>/home/logs/user-dev/error/error.log</File>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>/mnt/logs/gongfupay-faceway-web/error/error-%d{yyyyMMdd}.log.%i
+            <fileNamePattern>/home/logs/user-dev/error/error-%d{yyyyMMdd}.log.%i
             </fileNamePattern>
             <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
                 <maxFileSize>500MB</maxFileSize>
