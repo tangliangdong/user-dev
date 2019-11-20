@@ -32,5 +32,11 @@ public class OpenController {
         return "index";
     }
 
+    @PostMapping("hello")
+    public String hello(){
+        System.out.println("hello api");
+        return "hello";
+    }
+
 
 }
