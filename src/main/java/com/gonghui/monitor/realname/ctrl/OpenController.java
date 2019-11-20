@@ -22,8 +22,8 @@ public class OpenController {
 
     @PostMapping("login")
     public String login(){
-        System.out.println("login api");
-        return "login.html hello world";
+        System.out.println("login api!!!");
+        return "login.html hello world!!!";
     }
 
     @PostMapping("index")
